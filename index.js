@@ -29,7 +29,7 @@ rl.question('Enter a number of accounts to create: ', (input) => {
       rl.close();
     })
     .catch((error) => {
-      console.error("Account creation failed:", error);
+      console.error("Account creation failed: ", error);
       rl.close();
     });
 });
